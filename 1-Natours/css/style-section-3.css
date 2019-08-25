@@ -1,0 +1,284 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+/*
+    * => Universal Selector which selects every element in the page.
+    box-sizing: inherit; => forces inheritance for this property. By default it is not inherited.
+    *::after,*::before => We want all after and before virtual elements will use these definations.
+*/
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*
+    Root font size, which will be used in all "rem" decleration calculations, is set in html selector.
+    font-size: 62.5%; => %62.5 of default font size of the browser. If the user hasn't changed, it is usually 16px and so 16*%62.5 = 10px.
+ */
+html {
+    font-size: 62.5%;
+}
+
+
+/*
+    font properties are usually inherited. So thet will be inherited to all elements in the body. Thats why we define font properties in body
+    To Use Lato font we have included it from google fonts in index.html => <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    line-heignt: 1.7; => 1.7 times of the default value.
+    box-sizing: border-box; => Since we put "box-sizing-inherit in the * selector, all the elements inside body will be inherited from this decleration.
+    box-sizing: border-box => borders and the paddings are no more added to the total width and total hight for a specified box
+*/
+body {
+    font-family: "Lato", sans-serif ;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: #777777;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+/*
+    height: 95vh;   => 95% of the viewport height
+    background-image: linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40, 180, 133, 0.8)),url("../img/hero.jpg");
+        => we have gradient on the background with opacity 0.8 and below it we have image
+    background-size: cover; => try to fit to the viewport
+    background-position: top; => top of the image stays always in the top while resizing
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); => Draws a polygon where the image will be seen.
+            => You can get ready polygons from https://bennettfeely.com/clippy/
+
+*/
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40, 180, 133, 0.8)),url("../img/hero.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+/*
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    => 40pxs will be relative to the first parent element whose position is relative. So parent element's position (.header) will be "position: relative")
+ */
+
+.header__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+/*
+    height: 35px; => height of the image. And the width will autamatically determined by the browser.
+*/
+.header__logo {
+    height: 3.5rem;
+}
+
+/*
+    top: 40%;
+    left: 50%; => they are in relation to parent element
+    transform: translate(-50%, -50%); => in relation to the element itself.
+    text-align: center; => All child text elements will be in the center
+*/
+.header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*
+    backface-visibility: hidden; => Usually meaningfull when you rotate and see the backface of an object. But we use it here to fix an unknown error
+                                    which sometimes moves the animation a little up-down in our animation. This is a fix.
+ */
+.heading-primary {
+    color: white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+}
+
+/*
+    span elements are by default inline elements by default, like text
+    We want to make the block level, so they will use whole line, and line break after and before them
+ */
+.heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    /*
+    animation-delay: 3s;
+    animation-iteration-count: 3;
+     */
+}
+
+/*
+    animation: moveInRight ease-out 1s; => Instead of writing all animation properties one by one, we can write them in "animation" property
+    cubic-bezier(1.000, 0.065, 0.000, 0.650) 1s; => Make custom in : https://matthewlein.com/tools/ceaser
+ */
+.heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation: moveInRight cubic-bezier(1.000, 0.065, 0.000, 0.650) 1s;
+}
+
+/*
+    For the browser performance it's better to animate through 2 properties. 1.Opacity, 2. Transform
+ */
+@keyframes moveInLeft  {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        opacity: 0.8;
+        transform: translate(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight  {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    80% {
+        opacity: 0.8;
+        transform: translate(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom  {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+/*
+    .btn:link => link is a sudo class. Sudo classes are special states of a selector.
+    .btn:visited => Another sudo class. ex: First the color is black but after once clicked to the link it is blue.
+    display: inline-block; Since thhe btn element was a simple test it was inline, so we change the display to inline-block
+            inline-block : inline in width, block in height.
+            You should always do that if you use padding, heights, widths
+    This is the properties for initial state
+    transition: all .2s => Shortens all the transitions to .2 seconds.
+ */
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
+}
+
+/*
+    .btn:hover  => When the button is over the element
+    box-shadow: 2px 15px 50px rgba(0,0,0,.5); => x y blur color
+ */
+.btn:hover {
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.4);
+}
+
+/*
+    .btn:active => when the button is clicked
+    transform: translateY(-1px); => -1px is relative to the initial state
+ */
+.btn:active {
+    transform: translateY(-.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);
+}
+
+.btn--white {
+    background-color: #fff;
+    color: #777;
+}
+
+/*
+    .btn::after => adds like a virtual element right after the element that were selected. Then we can style the element.
+    content: ""; => this is always necessary. It doesn't matter it is empty (""), but there must be specified
+    display: inline-block; => this must be specified. We want the same as the btn thats why it is inline-block.
+    height: 100%;
+    width: 100%;    => will be exactly same with the button.
+    border-radius: 100px; => will be exactly same with the button.
+    position: absolute;
+    top: 0;
+    left: 0;    => relative to the first parent element whose position is "relative". In this case :button.
+    z-index: -1; => defines the position of elements if they are one of top on an other.
+
+ */
+.btn::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+/*
+    .btn-white::after => we want the background-color white for only the btn-white.
+ */
+.btn-white::after {
+    background-color: white;
+}
+
+/*
+    We want to make it bigger and see just only when hover the button
+ */
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+/*
+        animation-fill-mode: backwards;=> applys the 0% of animation before the animation starts. So the button will not be visible at the beginning
+ */
+.btn--animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
