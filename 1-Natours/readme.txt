@@ -30,5 +30,5 @@ Automatically compile and reload pages:
     $cd 1-Natours
     $live-server
 
-- A template for grid system is implemented in an other project : grid-template. Test it there
+- A template for grid system is implemented in an other project : grid-template. Also in github. Test it there.
 
