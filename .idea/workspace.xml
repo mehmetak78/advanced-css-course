@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66e0b826-28b0-4d30-b8b2-ef05334f4fd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/readme.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,8 @@
       <workItem from="1566808466801" duration="1075000" />
       <workItem from="1566815325453" duration="5957000" />
       <workItem from="1566853694544" duration="264000" />
-      <workItem from="1566854019199" duration="35000" />
+      <workItem from="1566854019199" duration="210000" />
+      <workItem from="1566854603794" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1566419981777</created>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566853730865</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Section 5">
+      <created>1566854074289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566854074289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
