@@ -1,0 +1,137 @@
+.btn {
+
+    /*
+        .btn:link => link is a sudo class. Sudo classes are special states of a selector.
+        .btn:visited => Another sudo class. ex: First the color is black but after once clicked to the link it is blue.
+        display: inline-block; Since thhe btn element was a simple test it was inline, so we change the display to inline-block
+                inline-block : inline in width, block in height.
+                You should always do that if you use padding, heights, widths
+        This is the properties for initial state
+        transition: all .2s => Shortens all the transitions to .2 seconds.
+    */
+    /*.btn, .btn:link, .btn:visited*/
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: $default-font-size;
+
+        //Change for the <button> element
+        border: none;
+        cursor: pointer;
+    }
+
+    /*
+        .btn:hover  => When the button is over the element
+        box-shadow: 2px 15px 50px rgba(0,0,0,.5); => x y blur color
+    */
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-black,.2);
+
+        /*
+            We want to make it bigger and see just only when hover the button
+        */
+        /*.btn:hover::after*/
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    /*
+        .btn:active => when the button is clicked
+        transform: translateY(-1px); => -1px is relative to the initial state
+    */
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+    }
+
+    /*
+        .btn-white::after => we want the background-color white for only the btn-white.
+    */
+    &--white {
+        background-color: $color-white;
+        color: $color-grey-dark;
+
+        &::after {
+            background-color: $color-white;
+        }
+    }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
+    /*
+        .btn::after => adds like a virtual element right after the element that were selected. Then we can style the element.
+        content: ""; => this is always necessary. It doesn't matter it is empty (""), but there must be specified
+        display: inline-block; => this must be specified. We want the same as the btn thats why it is inline-block.
+        height: 100%;
+        width: 100%;    => will be exactly same with the button.
+        border-radius: 100px; => will be exactly same with the button.
+        position: absolute;
+        top: 0;
+        left: 0;    => relative to the first parent element whose position is "relative". In this case :button.
+        z-index: -1; => defines the position of elements if they are one of top on an other.
+    */
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    /*
+        animation-fill-mode: backwards;=> applys the 0% of animation before the animation starts. So the button will not be visible at the beginning
+    */
+    &--animated {
+        animation: moveInBottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
+    }
+}
+
+.btn-text {
+    &:link,
+    &:visited {
+        font-size: $default-font-size;
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        padding: 3px;
+        transition: all .2s;
+    }
+
+    &:hover {
+        background-color: $color-primary;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+        transform: translateY(0);
+    }
+}

@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e0b826-28b0-4d30-b8b2-ef05334f4fd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1-Natours/css/style-section-4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/index-section-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/sass/main-section-4.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/abstracts/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/abstracts/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/base/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/base/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/components/_bg-video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/components/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/components/_composition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/components/_feature-box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/components/_popup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/components/_story.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/layout/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/layout/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/sass/pages/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +51,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1-Natours/sass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1-Natours/sass/pages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -47,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Mehmet Ak\Mehmet\React\advanced-css-course\1-Natours\sass" />
-      <recent name="D:\Mehmet Ak\Mehmet\React\advanced-css-course\1-Natours\css" />
-      <recent name="D:\Mehmet Ak\Mehmet\React\advanced-css-course\1-Natours" />
-      <recent name="$PROJECT_DIR$/1-Natours" />
-      <recent name="$PROJECT_DIR$/1-Natours/css" />
+      <recent name="$PROJECT_DIR$/1-Natours/sass/pages" />
+      <recent name="$PROJECT_DIR$/1-Natours/sass/layout" />
+      <recent name="$PROJECT_DIR$/1-Natours/sass/components" />
+      <recent name="$PROJECT_DIR$/1-Natours/sass/base" />
+      <recent name="$PROJECT_DIR$/1-Natours/sass/abstratcs" />
     </key>
   </component>
   <component name="RunDashboard">

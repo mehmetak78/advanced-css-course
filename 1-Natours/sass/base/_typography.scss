@@ -1,0 +1,94 @@
+
+/*
+    font properties are usually inherited. So thet will be inherited to all elements in the body. Thats why we define font properties in body
+    To Use Lato font we have included it from google fonts in index.html => <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    line-heignt: 1.7; => 1.7 times of the default value.
+    box-sizing: border-box; => Since we put "box-sizing-inherit in the * selector, all the elements inside body will be inherited from this decleration.
+    box-sizing: border-box => borders and the paddings are no more added to the total width and total hight for a specified box
+*/
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+}
+
+/*
+    backface-visibility: hidden; => Usually meaningfull when you rotate and see the backface of an object. But we use it here to fix an unknown error
+                                    which sometimes moves the animation a little up-down in our animation. This is a fix.
+ */
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+
+    /*
+    span elements are by default inline elements by default, like text
+    We want to make the block level, so they will use whole line, and line break after and before them
+    */
+    /*.heading-primary--main */
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+    
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    
+        /*
+        animation-delay: 3s;
+        animation-iteration-count: 3;
+        */
+    }
+
+    /*
+    animation: moveInRight ease-out 1s; => Instead of writing all animation properties one by one, we can write them in "animation" property
+    cubic-bezier(1.000, 0.065, 0.000, 0.650) 1s; => Make custom in : https://matthewlein.com/tools/ceaser
+    */
+    /*.heading-primary--sub */
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+        animation: moveInRight 1s ease-out;
+    }
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .2s;
+
+    &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+    }
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
