@@ -10,26 +10,28 @@
 
 .row {
     max-width: $grid-width;
+    background-color: #eee;
     margin: 0 auto;
 
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
     }
 
+
     @include clearfix;
 
 
     /*
-    attribute selector,
+        attribute selector,
         [class^="col-"] => all the elements who has a class attribute starting with "col-".
                             ^= means the attribute starts with "col-"
                             *= means the attribute contains "col-"
                             $= means the attribute ends with "col-"
                             we can also use src, etc.
-    */
+     */
     [class^="col-"] {
         float: left;
-
+        background-color: red;
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
         }
@@ -37,7 +39,6 @@
 
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
-
     }
 
     .col-1-of-3 {

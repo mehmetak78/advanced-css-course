@@ -1,7 +1,7 @@
 Automatically compile and reload pages:
     Terminal 1
         $cd 1-Natours
-        $npm run compile-sass
+        $npm run compile:sass
     Terminal 2
         $cd 1-Natours
         $live-server
@@ -18,6 +18,8 @@ Automatically compile and reload pages:
         "compile:sass": "node-sass sass/main.scss css/style.css -w"
       },
 
+      /* you can have problem with -w flag. If so, first run without it, and then run with it */
+
 - In the command line
     npm run compile:sass
 
@@ -27,4 +29,6 @@ Automatically compile and reload pages:
 - To Run live-server (It will open the default browser and "index.html" in http://127.0.0.1:8080/)
     $cd 1-Natours
     $live-server
+
+- A template for grid system is implemented in an other project : grid-template. Test it there
 

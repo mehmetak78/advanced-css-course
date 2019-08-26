@@ -633,9 +633,25 @@ body {
     width: 80%;
     float: right; }
 
+/*
+    margin: 0 auto; =>  When we use auto, left and right margins will be same. so the element will be centered.
+    &:not(:last-child) { => if it is not the last child element, then it will be selected.
+    width: calc((100% - 6rem) / 2); => we need to use calc() because they will be calculated after compiled to css.
+                        we also have to use # in calc() function if we use a sass variable.
+    @include clearfix; => Since all of the elements of div are floated, the div has 0 height. In order to fix it we use clearfix.
+                        will be compiled as .row::after {........}
+ */
 .row {
   max-width: 114rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  /*
+    attribute selector,
+        [class^="col-"] => all the elements who has a class attribute starting with "col-".
+                            ^= means the attribute starts with "col-"
+                            *= means the attribute contains "col-"
+                            $= means the attribute ends with "col-"
+                            we can also use src, etc.
+    */ }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {
