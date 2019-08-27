@@ -104,6 +104,11 @@ body {
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out; }
 
+/*
+    -webkit-background-clip: text;
+    color: transparent; => background is clipted exactly where the text is
+        if you want to put background image to where the text is, use this property and make text transparent
+ */
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -128,6 +133,9 @@ body {
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
+/*
+  To center a text, put it into a div and use an utitiltiy class, who has a single goal, which is to center the text inside
+ */
 .u-center-text {
   text-align: center !important; }
 
@@ -360,16 +368,23 @@ body {
     font-size: 6rem;
     font-weight: 100; }
 
+/*
+    position: absolute finds its place relative to the first upper component whose position: relative
+    By doing this strategy we can put all children to the first place
+    Below, by giving different Modifiers, (BEM(Block ELement Modifier) Pattern) we can arrange the images overlapped,
+        but on different places
+    outline-offset: 2rem;
+    outline: 1.5rem solid $color-primary;   => draws a rectangle around the image, but I didn't use it.
+ */
 .composition {
   position: relative; }
   .composition__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
+    border-radius: 10px;
     position: absolute;
     z-index: 10;
-    transition: all .2s;
-    outline-offset: 2rem; }
+    transition: all .2s; }
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
@@ -380,12 +395,11 @@ body {
       left: 20%;
       top: 10rem; }
     .composition__photo:hover {
-      outline: 1.5rem solid #55c57a;
-      transform: scale(1.05) translateY(-0.5rem);
+      transform: scale(1.25) translateY(-0.1rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.95); }
+    transform: scale(0.85); }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
@@ -839,7 +853,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -860,7 +874,7 @@ body {
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../../img/nat-10.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
