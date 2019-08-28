@@ -32,4 +32,10 @@ Automatically compile and reload pages:
 
 - A template for grid system is implemented in an other project : grid-template. Also in github. Test it there.
 
--
+- Linea Icons
+    https://github.com/linea-io/Linea-Iconset
+    You can copy from an older project of your own
+        /css/fonts
+        /css/icon-font.css
+    And put it into your index.html
+        <link rel="stylesheet" href="css/icon-font.css">

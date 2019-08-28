@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e0b826-28b0-4d30-b8b2-ef05334f4fd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1-Natours/css/fonts/linea-basic-10.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/css/fonts/linea-basic-10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/css/fonts/linea-basic-10.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/css/fonts/linea-basic-10.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/css/icon-font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/sass/base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/base/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_composition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_composition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +37,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1-Natours/sass/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1-Natours/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -43,11 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1-Natours/css" />
       <recent name="$PROJECT_DIR$/1-Natours/sass/layout" />
       <recent name="$PROJECT_DIR$/1-Natours" />
       <recent name="$PROJECT_DIR$/1-Natours/sass/pages" />
       <recent name="$PROJECT_DIR$/1-Natours/sass/components" />
-      <recent name="$PROJECT_DIR$/1-Natours/sass/base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,7 +80,7 @@
       <workItem from="1566853694544" duration="264000" />
       <workItem from="1566854019199" duration="210000" />
       <workItem from="1566854603794" duration="145000" />
-      <workItem from="1566855196022" duration="4734000" />
+      <workItem from="1566855196022" duration="10161000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1566419981777</created>
@@ -129,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566855266418</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="About Section">
+      <created>1566935920947</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566935920947</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +162,7 @@
     <MESSAGE value="Second commit" />
     <MESSAGE value="Section 2.6" />
     <MESSAGE value="Section 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 5" />
+    <MESSAGE value="About Section" />
+    <option name="LAST_COMMIT_MESSAGE" value="About Section" />
   </component>
 </project>

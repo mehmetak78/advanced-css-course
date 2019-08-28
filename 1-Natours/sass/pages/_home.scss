@@ -15,6 +15,10 @@
     transform: skewY(-7deg);
     margin-top: -10rem;
 
+
+    /*
+        & > * { => Selects all direct children of parent. Not the children of childrens'
+     */
     & > * {
         transform: skewY(7deg);
     }
