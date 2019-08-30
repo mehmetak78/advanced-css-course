@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e0b826-28b0-4d30-b8b2-ef05334f4fd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1-Natours/css/fonts/linea-basic-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/css/fonts/linea-basic-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/css/fonts/linea-basic-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/css/fonts/linea-basic-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Natours/css/icon-font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_feature-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_feature-box.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,7 @@
       <workItem from="1566853694544" duration="264000" />
       <workItem from="1566854019199" duration="210000" />
       <workItem from="1566854603794" duration="145000" />
-      <workItem from="1566855196022" duration="10161000" />
+      <workItem from="1566855196022" duration="15828000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1566419981777</created>
@@ -138,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566935920947</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="FeaturesSection">
+      <created>1567023716953</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567023716953</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +166,7 @@
     <MESSAGE value="Section 2.6" />
     <MESSAGE value="Section 5" />
     <MESSAGE value="About Section" />
-    <option name="LAST_COMMIT_MESSAGE" value="About Section" />
+    <MESSAGE value="FeaturesSection" />
+    <option name="LAST_COMMIT_MESSAGE" value="FeaturesSection" />
   </component>
 </project>

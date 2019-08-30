@@ -1,6 +1,16 @@
-.card {
 
-    // FUNCTIONALITY
+/*
+    perspective: 150rem; => The perspective must be in the parent of the element who is being rotated
+                : The pixels need to be very high. For so, it is 150rem
+    -moz-perspective: 150rem; => To make perspective work in Firefox
+    backface-visibility: hidden; => We will no longer see the back side of the card.
+    height: 52rem; => when we use position:absolute, all the elements are float and looses the height. So we have to specifiy its height
+    overflow: hidden; => if we don't use this, the image overlaps the curves of the borders. So use it for the border radius
+ */
+
+
+
+.card {
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
@@ -14,7 +24,7 @@
         left: 0;
         width: 100%;
         backface-visibility: hidden;
-        border-radius: 3px;
+        border-radius: 20px;
         overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
@@ -40,6 +50,9 @@
     }
   
 
+    /*
+        .card:hover .card_side--front => when we hover the card card-side__front  will be transformed
+     */
     &:hover &__side--front {
         transform: rotateY(-180deg);
     }
@@ -49,11 +62,15 @@
     }
 
 
-    // FRONT SIDE STYLING
+    /*
+        background-blend-mode: screen; => blend the gradient color and image for the background of the card
+                Doesn't work in IE, but works in Chrome, Safari, Firefox
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); => we can also use circle, etc instead of polygon for clip.
+     */
     &__picture {
         background-size: cover;
         height: 23rem;
-        background-blend-mode: screen;
+        background-blend-mode: darken;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         border-top-left-radius: 3px;
@@ -61,17 +78,17 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            url(../img/nat-5.jpg);
+            url(../../img/nat-5.jpg);
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            url(../img/nat-6.jpg);
+            url(../../img/nat-6.jpg);
         }
 
         &--3 {
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
-            url(../img/nat-7.jpg);
+            url(../../img/nat-7.jpg);
         }
     }
 
@@ -88,6 +105,11 @@
     
     }
 
+    /*
+        box-decoration-break: clone; => When the text goes to 2 lines, the paddings should be applied to both lines of the text.
+                we use thie box decoration in order to show browser to treat both lines as different elements, and so we can see the paddings
+                in both lines. One element, two boxes and they are both decorated with css, for here padding.
+     */
     &__heading-span {
         padding: 1rem 1.5rem;
         -webkit-box-decoration-break: clone;
@@ -112,6 +134,9 @@
         }
     }
 
+    /*
+        margin: 0 auto; => To center a block element inside a block element
+     */
     &__details {
         padding: 3rem;
 
@@ -132,7 +157,12 @@
         }
     }
 
-    // FRONT SIDE STYLING
+    /*
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+                => centers in both directions, vertically and horizontally
+     */
     &__cta {
         position: absolute;
         top: 50%;
