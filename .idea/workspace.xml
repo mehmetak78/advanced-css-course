@@ -4,9 +4,7 @@
     <list default="true" id="66e0b826-28b0-4d30-b8b2-ef05334f4fd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_feature-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_feature-box.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1566853694544" duration="264000" />
       <workItem from="1566854019199" duration="210000" />
       <workItem from="1566854603794" duration="145000" />
-      <workItem from="1566855196022" duration="15828000" />
+      <workItem from="1566855196022" duration="16098000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1566419981777</created>
@@ -141,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567023716953</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tours Section">
+      <created>1567201922156</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567201922156</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +172,7 @@
     <MESSAGE value="Section 5" />
     <MESSAGE value="About Section" />
     <MESSAGE value="FeaturesSection" />
-    <option name="LAST_COMMIT_MESSAGE" value="FeaturesSection" />
+    <MESSAGE value="Tours Section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tours Section" />
   </component>
 </project>
