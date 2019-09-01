@@ -5,9 +5,13 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: .15;
+    opacity: .25;
     overflow: hidden;
 
+    /*
+        To make images occupy all the section.
+        object-fit: cover; => will fit the entire parent element while maintaining the aspect ratio. works like images.
+     */
     &__content {
         height: 100%;
         width: 100%;

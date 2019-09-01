@@ -2,9 +2,196 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e0b826-28b0-4d30-b8b2-ef05334f4fd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1-Natours/css/style.comp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/css/style.concat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/css/style.prefix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/events/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/events/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/glob/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/minimatch/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/minimatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/assert.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/async_hooks.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/base.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/buffer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/child_process.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/cluster.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/console.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/constants.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/crypto.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/dgram.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/dns.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/domain.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/events.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/fs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/globals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/http.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/http2.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/https.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/inspector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/net.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/os.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/path.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/perf_hooks.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/process.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/punycode.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/querystring.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/readline.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/repl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/stream.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/string_decoder.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/timers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/tls.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/trace_events.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/ts3.2/globals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/ts3.2/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/ts3.2/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/tty.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/url.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/v8.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/vm.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/worker_threads.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/@types/node/zlib.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/data/prefixes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/at-rule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/autoprefixer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/brackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/browsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/declaration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/align-content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/align-items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/align-self.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/appearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/backdrop-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/background-clip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/background-size.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/block-logical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/border-image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/border-radius.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/break-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/color-adjust.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/cross-fade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/display-flex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/display-grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/filter-value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/flex-basis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/flex-direction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/flex-flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/flex-grow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/flex-shrink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/flex-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/flex-wrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/flex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/gradient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-area.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-column-align.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-row-align.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-row-column.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-rows-columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-template-areas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/grid-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/image-rendering.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/image-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/inline-logical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/intrinsic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/justify-content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/mask-border.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/mask-composite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/overscroll-behavior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/pixelated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/place-self.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/text-decoration-skip-ink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/text-decoration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/transform-decl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/hacks/writing-mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/old-selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/old-value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/prefixer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/prefixes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/processor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/resolution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/supports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/lib/value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/autoprefixer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/common/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/common/parse-cli-args.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/common/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/npm-run-all/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/npm-run-all/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/npm-run-all/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/run-p/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/run-p/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/run-p/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/run-s/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/run-s/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/bin/run-s/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/create-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/create-prefix-transform-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/match-tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/npm-run-all-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/read-package-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/run-task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/run-tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/spawn-posix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/spawn-win32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/lib/spawn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/npm-run-all/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/postcss-cli/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/postcss-cli/lib/args.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/postcss-cli/lib/depGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/postcss-cli/lib/getMapfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/node_modules/postcss-cli/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Natours/style.concat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/css/style-section-2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/css/style-section-3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/css/style-section-4.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/index-section-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/index-section-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/index-section-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/base/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_bg-video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_bg-video.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_composition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_composition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_feature-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_feature-box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/components/_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/components/_story.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/layout/_grid-test.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/layout/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/layout/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/1-Natours/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +261,9 @@
       <workItem from="1566853694544" duration="264000" />
       <workItem from="1566854019199" duration="210000" />
       <workItem from="1566854603794" duration="145000" />
-      <workItem from="1566855196022" duration="16098000" />
+      <workItem from="1566855196022" duration="36120000" />
+      <workItem from="1567290308355" duration="5919000" />
+      <workItem from="1567362049987" duration="5778000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1566419981777</created>
@@ -146,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567201922156</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tours Section">
+      <created>1567202192150</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567202192150</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

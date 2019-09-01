@@ -15,8 +15,25 @@
         box-shadow: 0 1rem 3rem rgba($color-black, .1);
         text-align: center;
         cursor: pointer;
+
+        @include respond(tab-port) {
+            top: 4rem;
+            right: 4rem;
+        }
+
+        @include respond(phone) {
+            top: 3rem;
+            right: 3rem;
+        }
+
     }
 
+
+
+    /*
+        position: fixed; => Doesn't change the place as the page scrolls.
+        radial-gradient($color-primary-light, $color-primary-dark); => circlar fradient
+     */
     &__background {
         height: 6rem;
         width: 6rem;
@@ -28,7 +45,16 @@
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
-        //transform: scale(80);
+        @include respond(tab-port) {
+            top: 4.5rem;
+            right: 4.5rem;
+        }
+
+        @include respond(phone) {
+            top: 3.5rem;
+            right: 3.5rem;
+        }
+
     }
 
     &__nav {
@@ -57,6 +83,11 @@
         margin: 1rem;
     }
 
+    /*
+        background-size: 220%;
+        background-size: 220%;
+        background-position: 100%; => for making animation effect gradient from right to left.
+     */
     &__link {
         &:link,
         &:visited {
@@ -86,7 +117,12 @@
     }
 
 
-    //FUNCTIONALITY
+    /*
+          &__checkbox:checked ~ &__background => General sibling selector.
+                                When the checkbox is checked, we select the background and then we can style it.
+          &__checkbox:checked ~ &__nav {  => General sibling selector.
+                                When the checkbox is checked, we select the nav and then we can style it.
+     */
     &__checkbox:checked ~ &__background {
         transform: scale(80);
     }

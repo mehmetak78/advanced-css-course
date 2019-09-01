@@ -10,13 +10,19 @@
     visibility: hidden;
     transition: all .3s;
 
+    @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba($color-black, .3);
+    }
+
     &__content {
         @include absCenter;
 
-        width: 75%;
+        width: 76%;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
-        border-radius: 3px;
+        border-radius: 10px;
         display: table;
         overflow: hidden;
         opacity: 0;
@@ -27,8 +33,12 @@
     &__left {
         width: 33.333333%;
         display: table-cell;
+        vertical-align: middle;
     }
 
+    /*
+        vertical-align: middle; => aligns the table cell vertically
+     */
     &__right {
         width: 66.6666667%;
         display: table-cell;
@@ -41,6 +51,11 @@
         width: 100%;
     }
 
+    /*
+        column-count: 2; => 2 columns layout
+        hyphens: auto; => cuts the world automatically if it doesn't fit to the line with end of line seperator '-'.
+                <html lang="en"> (According to the english)
+     */
     &__text {
         font-size: 1.4rem;
         margin-bottom: 4rem;
@@ -60,11 +75,18 @@
     }
 
     //Open states
+    /*
+        When we click the button, it goes to the section popup with <a href="#popup" ....
+        Then &:target can be selected to style the popup (actually to make it visible)
+     */
     &:target {
         opacity: 1;
         visibility: visible;
     }
 
+    /*
+        When the popup becomes the target, select the content for animation
+     */
     &:target &__content {
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);

@@ -7,13 +7,21 @@
     @include clearfix; => Since all of the elements of div are floated, the div has 0 height. In order to fix it we use clearfix.
                         will be compiled as .row::after {........}
  */
-
 .row {
     max-width: $grid-width;
     margin: 0 auto;
 
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
+
+        @include respond(tab-port) {
+            margin-bottom: $gutter-vertical-small;
+        }
+    }
+
+    @include respond(tab-port) {
+        max-width: 50rem;
+        padding: 0 3rem;
     }
 
     @include clearfix;
@@ -32,6 +40,15 @@
 
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
+
+            @include respond(tab-port) {
+                margin-right: 0;
+                margin-bottom: $gutter-vertical-small;
+            }
+        }
+
+        @include respond(tab-port) {
+            width: 100% !important;
         }
     }
 

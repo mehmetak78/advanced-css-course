@@ -3,18 +3,27 @@
         margin-bottom: 2rem;
     }
 
+    /*
+        font-family: inherit;
+        color: inherit; => inherits the font-family,color manually since input element's does'nt inherit them.
+        &::-webkit-input-placeholder => sets the placeholder's color.
+     */
     &__input {
         font-size: 1.5rem;
         font-family: inherit;
         color: inherit;
         padding: 1.5rem 2rem;
         border-radius: 2px;
-        background-color: rbga($color-white, .5);
+        background-color: rgba($color-white, .5);
         border: none;
         border-bottom: 3px solid transparent;
         width: 90%;
         display: block;
         transition: all .3s;
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
 
         &:focus {
             outline: none;
@@ -41,6 +50,14 @@
         transition: all .3s;
     }
 
+    /*
+        &__input:placeholder-shown + &__label => Sibling selector. Both label and input are the children of a parent element form-group.
+            when the placeholder shonw in input element we can style label like this. "+" selects the next sibling element of input which is label here.
+            label must be just after the input in html for using like this.
+            if there were other elements between label and input then we should use "~" which is general sibling selector.
+        opacity: 0;
+        visibility: hidden;  => we use opacity too, not just visibility because we can not animate visibility.
+     */
     &__input:placeholder-shown + &__label {
         opacity: 0;
         visibility: hidden;
@@ -51,6 +68,11 @@
     &__radio-group {
         width: 49%;
         display: inline-block;
+
+        @include respond(tab-port) {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
     }
 
     &__radio-input {
@@ -64,6 +86,12 @@
         padding-left: 4.5rem;
     }
 
+    /*
+        Since we can not style the radio button of html from css, we use a trick.
+        We style the label of radio button in a <span> element and then hide the input of radio.
+        Although the radio button is hidden, since it is connected through label, it will be selected when we click the label.
+        By doing so, we are creating a new button which we can style by using css as below.
+     */
     &__radio-button {
         height: 3rem;
         width: 3rem;
@@ -90,6 +118,10 @@
         }
     }
 
+    /*
+        General sibling selector. We should also use "+" here, but just for sample we used general sibling selector (~)
+        When the radio button is checked, select radio-button::after and sets its opacity to 1.
+     */
     &__radio-input:checked ~ &__radio-label &__radio-button::after {
         opacity: 1;
     }
